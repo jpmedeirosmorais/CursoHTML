@@ -5,8 +5,26 @@ p{
     text-indent: 30px;
 }
 body{
-    background-color:rgb(228, 228, 228);
+    background-color:#dddddd);
     
+}
+header#cabecalho img#icone{
+    position: absolute;
+    left: 830px;
+    top: 70px;
+}
+
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+}
+
+div#interface{
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
 }
 
 /* Formatação de imagens com legendas */
@@ -47,7 +65,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left : 200px;
+    left : 380px;
 
 }
 nav#menu li{
