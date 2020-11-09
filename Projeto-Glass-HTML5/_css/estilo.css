@@ -1,24 +1,16 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/BubblegumSans-Regular.otf");
+}
 p{
     text-align: justify;
     text-indent: 30px;
 }
 body{
-    background-color:#dddddd);
-    
+    background-color: grey;
 }
-header#cabecalho img#icone{
-    position: absolute;
-    left: 830px;
-    top: 70px;
-}
-
-header#cabecalho{
-    border-bottom: 1px #606060 solid;
-    height: 150px;
-}
-
 div#interface{
     width: 900px;
     background-color: white;
@@ -26,6 +18,35 @@ div#interface{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     padding: 10px;
 }
+header#cabecalho img#icone{
+    position: absolute;
+    left: 830px;
+    top: 70px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/logo-glass.jpg")no-repeat -10px 50px;
+}
+
+header#cabecalho h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    font-family: 'Goldman', cursive;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
 
 /* Formatação de imagens com legendas */
 figure.foto-legenda{
@@ -63,10 +84,9 @@ nav#menu{
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
-    top: -20px;
-    left : 380px;
-
+    position: relative;
+    top: -90px;
+    left : 270px;
 }
 nav#menu li{
     display: inline-block;
@@ -84,11 +104,29 @@ nav#menu h1{
 }
 nav#menu a{
     color: black;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 nav#menu a:hover{
     color: white;
-    text-decoration: underline;
-    ;
+    text-decoration: underline;  
 }
+section#corpo{
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+aside#lateral{
+    display: block;
+    width:350px;
+    float: right;
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p{
+    text-align: center;
+}
+
