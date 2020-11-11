@@ -9,7 +9,7 @@ p{
     text-indent: 30px;
 }
 a {
-    color: #2419c2;
+    color: blue;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -17,20 +17,20 @@ a:hover{
     text-decoration: underline;
 }
 body{
-    background-color: grey;
+    background-color: white;
     font-family: Arial, sans-serif;
 }
 div#interface{
     width: 900px;
     background-color: white;
     margin: -20px auto 0px auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
     padding: 10px;
 }
 header#cabecalho img#icone{
-    position: absolute;
-    left: 830px;
-    top: 70px;
+    position: relative;
+    left: 720px;
+    top: -50px;
 }
 
 header#cabecalho {
@@ -42,14 +42,14 @@ header#cabecalho {
 header#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
     font-size: 30px;
-    color: #606060;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    color: #2fffa8;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     padding: 0px;
     margin-bottom: 0px;
 }
 header#cabecalho h2{
     font-family: 'Goldman', cursive;
-    color: #888888;
+    color: black;
     font-size: 15pt;
     padding: 0px;
     margin-top: 0px;
@@ -95,7 +95,7 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: relative;
-    top: -90px;
+    top: -235px;
     left : 270px;
     
 }
@@ -106,22 +106,26 @@ nav#menu li{
     margin: 0px;
     transition: background-color 0.2s;
 }
+nav#menu li#inicio{
+    display: inline-block;
+    background-color:white;
+}
 
-nav#menu li:hover{
+/*nav#menu li:hover{
     background-color: #000000;
     
-}
+}*/
 nav#menu h1{
     display: none;
 }
 nav#menu a{
-    color: rgb(119, 119, 119);
+    color: black;
     text-decoration: none; 
     font-weight: bold; 
     font-family: Arial, sans-serif;
 }
 nav#menu a:hover{
-    color:#2fffa8;
+    color:grey;
     text-decoration: underline; 
     font-weight: bold; 
     font-family: Arial, sans-serif;
@@ -129,7 +133,7 @@ nav#menu a:hover{
 }
 section#corpo{
     display: block;
-    width: 520px;
+    width: 500px;
     float: left;
     border-right: 1px solid black;
     padding-right: 15px;
@@ -144,7 +148,7 @@ article#noticia-principal h2{
 header#cabecalho-artigo h1{
     font-family: 'FonteLogo', sans-serif;
     font-size: 20pt;
-    color: #606060;
+    color: #2fffa8;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -156,7 +160,7 @@ header#cabecalho-artigo h2{
 }
 header#cabecalho-artigo h3{
     font-size: 12px;
-    color: #606060;
+    color: black;
 }
 .direita{
     text-align: right;
@@ -197,9 +201,24 @@ table#tabelaspec caption span{
 }
 aside#lateral{
     display: block;   
-    height: ;
     width:350px;
     float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 0px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+aside#lateral h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #2fffa8;
+}
+aside#lateral h2{
+    background-color: #2fffa8;
+    color: black;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+    font-size: 13pt;
 }
 footer#rodape {
     clear: both;
